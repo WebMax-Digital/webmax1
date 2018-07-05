@@ -80,7 +80,7 @@ function initializeMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    var image = 'http://webable.digital/webable_wordpress/wp-content/themes/webable/assets/images/map-pin.png';
+    var image = '/webable_wordpress/wp-content/themes/webable/assets/images/map-pin.png';
     var myLatLng = new google.maps.LatLng(23.776531, 90.413935);
     var marker = new google.maps.Marker({
         position: myLatLng,
